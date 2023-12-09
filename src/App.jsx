@@ -18,6 +18,7 @@ const AboutMe = () => {
   return (
     <Paper elevation={3} className="section">
       <Typography variant="h5">About Me</Typography>
+      <img src="camera.png" alt="" className="profile" />
       <Typography variant="body1">
         Hello! I'm a <br />
         - <br />
