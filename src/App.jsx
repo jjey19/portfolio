@@ -16,10 +16,11 @@ const Header = () => {
 
 const AboutMe = () => {
   return (
-    <Paper elevation={3} className="section">
+    <Paper elevation={3} className="aboutme" >
       <Typography variant="h5">About Me</Typography>
-      <img src="camera.png" alt="" className="profile" />
+      <img src="camera.png"  alt="" className="profile" />
       <Typography variant="body1">
+        
         Hello! I'm a <br />
         - <br />
         -
@@ -34,7 +35,7 @@ const Projects = () => {
       <Typography variant="h5">Projects</Typography>
       <div className="project">
         <Typography variant="body2">
-          <img className="photo" src="camera.png" alt="" />
+          <img className="photo" src="samplei.png" alt="" />
           <img className="photo" src="camera.png" alt="" />
           <img className="photo" src="camera.png" alt="" />
           <img className="photo" src="camera.png" alt="" />
