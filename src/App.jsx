@@ -8,22 +8,19 @@ import './App.css';
 const Header = () => {
   return (
     <Paper elevation={3} className="header">
-      <Typography variant="h4">Name Photography</Typography>
-      <Typography variant="subtitle1">Field of Work</Typography>
+      <Typography variant="h4">Whaley Photography</Typography>
+      <Typography variant="subtitle1">Profesional Duplicator</Typography>
     </Paper>
   );
 };
 
 const AboutMe = () => {
   return (
-    <Paper elevation={3} className="aboutme" >
+    <Paper elevation={3} className="section" >
       <Typography variant="h5">About Me</Typography>
-      <img src="camera.png"  alt="" className="profile" />
-      <Typography variant="body1">
-        
-        Hello! I'm a <br />
-        - <br />
-        -
+        <img src="whaley.png"  alt="" className="profile" />
+      <Typography variant="body1" className="about">
+        Hello! I'm a
       </Typography>
     </Paper>
   );
@@ -36,14 +33,14 @@ const Projects = () => {
       <div className="project">
         <Typography variant="body2">
           <img className="photo" src="samplei.png" alt="" />
-          <img className="photo" src="camera.png" alt="" />
-          <img className="photo" src="camera.png" alt="" />
-          <img className="photo" src="camera.png" alt="" />
-          <img className="photo" src="camera.png" alt="" />
-          <img className="photo" src="camera.png" alt="" />
-          <img className="photo" src="camera.png" alt="" />
-          <img className="photo" src="camera.png" alt="" />
-          <img className="photo" src="camera.png" alt="" />
+          <img className="photo" src="samplei.png" alt="" />
+          <img className="photo" src="samplei.png" alt="" />
+          <img className="photo" src="samplei.png" alt="" />
+          <img className="photo" src="samplei.png" alt="" />
+          <img className="photo" src="samplei.png" alt="" />
+          <img className="photo" src="samplei.png" alt="" />
+          <img className="photo" src="samplei.png" alt="" />
+          <img className="photo" src="samplei.png" alt="" />
         </Typography>
       </div>
       {/* Add more projects as needed */}
